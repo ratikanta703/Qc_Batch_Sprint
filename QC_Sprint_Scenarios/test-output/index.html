@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\QC_Batch_Sprint6\QC_Sprint_Scenarios\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.QCStore" hash-for-method="QC_Sprint_B20_178_3_Txn_Testdata">QC_Sprint_B20_178_3_Txn_Testdata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.QCStore</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="QC_Sprint_B20_178_3_Txn_Testdata">
+                  </a> <!-- QC_Sprint_B20_178_3_Txn_Testdata -->
+                  <span class="method-name">QC_Sprint_B20_178_3_Txn_Testdata</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;QTLSYS0-225&apos;, ip: &apos;192.168.0.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212-3-redhat&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19611/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 44323b78-0974-4654-8d55-c0173cb80641
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at tests.QCStore.getScreenhot(QCStore.java:7292)
+	at tests.QCStore.QC_Sprint_B20_178_3_Txn_Testdata(QCStore.java:2631)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\QC_Batch_Sprint6\QC_Sprint_Scenarios\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Ratikanta_Sprint1_REQ_572_1&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.QCStore&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Ratikanta_Sprint1_REQ_572_1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">QC_Sprint_B20_178_3_Txn_Testdata</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'QC_Sprint_B20_178_3_Txn_Testdata')
+data.setCell(0, 2, 'tests.QCStore')
+data.setCell(0, 3, 304921);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">94 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.QCStore</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">QC_Sprint_B20_179_1_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_182_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_153_1_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_182_2_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_180_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_13_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_184_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_212_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_178_2_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_182_6_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_152_4_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_11_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_183_1_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_151_7_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_198_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_151_5_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_181_1_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_216_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_181_3_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_152_2_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_8_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_181_7_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_126_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_194_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_151_3_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_196_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_180_1_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_200_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_098_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_180_2_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_180_6_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_9_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_179_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_151_1_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_192_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_180_3_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_191_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_190_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_226_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_211_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_179_6_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_210_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_183_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_182_1_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_179_2_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_152_3_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_153_2_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_215_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_10_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_181_2_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_195_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_178_1_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_151_4_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_7_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_151_6_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_152_1_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_102_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_199_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_151_2_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_203_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_178_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_174_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_176_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_175_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_202_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_184_4_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_122_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_170_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_206_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_171_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_204_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_172_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_207_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_184_5_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_16_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_214_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_183_6_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_178_5_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_184_2_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_18_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_183_2_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_2_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_208_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_153_5_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_187_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_14_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_184_1_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_153_3_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_15_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_186_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_17_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint2_QF_601_TS_188_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_154_1_Txn_Testdata</span>
+                <br/>
+                <span class="ignored-method-name">QC_Sprint_B20_153_6_Txn_Testdata</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.QCStore</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">killProcess</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">QC_Sprint_B20_178_3_Txn_Testdata</span>
+                <span class="method-start">5095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">310016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getResult([TestResult name=QC_Sprint_B20_178_3_Txn_Testdata status=FAILURE method=QCStore.QC_Sprint_B20_178_3_...)</span>
+                <span class="method-start">310016 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <groups>																																																	
+  <run>
+
+	
+        <!-- Ratikanta Sprint Scenarios Group--> 
+        
+        <!-- Procedure Table In DB : PRC_QC_SSN_ONLINE_PDL -->  
+
+          <!--  <include name="Ratikanta_Online_MOILP"/>  -->
+            <include name="Ratikanta_Online_WIILP"/>
+          <!-- <include name="Ratikanta_Online_OKILP"/> -->
+            <!-- <include name="Ratikanta_Sprint5_REQ_868_MOILP"/> --> 
+               <!-- <include name="Ratikanta_Sprint7_REQ_868_ILP"/> -->
+        
+        
+       
+        
+  
+
+
+
+  </run>
+  </groups> 
+   <classes>
+      <class name="tests.QCStore"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

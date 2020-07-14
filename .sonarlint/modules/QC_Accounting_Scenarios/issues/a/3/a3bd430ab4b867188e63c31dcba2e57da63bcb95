@@ -1,0 +1,57 @@
+
+isquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(×ë•½8±¶×¹È-
+Asquid:S00108^")Either remove or fill this block of code.(”ı¾
+_squid:UselessImportCheck"4Remove this unused import 'oracle.jdbc.OracleTypes'.(üûÊğ8İÆÊÈ-
+]
+squid:S106T";Replace this usage of System.out or System.err by a logger.(îÍÁÌıÿÿÿÿ8ëêİºÈ-
+;squid:S2095."Close this "Connection".(Ôàšûÿÿÿÿ8ÅË×÷‚.
+Asquid:S00108e")Either remove or fill this block of code.(”ı¾
+Qsquid:S1481"".Remove this unused "total_sum" local variable.(Òù¦¦üÿÿÿÿ8ëêİºÈ-
+X
+squid:S106K";Replace this usage of System.out or System.err by a logger.(«ĞÁÎ8ëêİºÈ-
+]squid:S2259<"?NullPointerException might be thrown as 'conn' is nullable here(Êë‹8ëêİºÈ-
+\squid:UselessImportCheck"1Remove this unused import 'java.util.Properties'.(¬µ²8ì¥Ù÷‚.
+bsquid:UselessImportCheck"7Remove this unused import 'java.sql.CallableStatement'.(†ÍÉ©8İÆÊÈ-
+asquid:S2583i"CChange this condition so that it does not always evaluate to "true"(¡ææú8ÁÒğ¸È-
+<squid:S1166l"%Either log or rethrow this exception.(”ı¾
+Xsquid:S1141\"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ëêİºÈ-
+]squid:S1854#":Remove this useless assignment to local variable "stotal".(Î°ÙÅùÿÿÿÿ8ëêİºÈ-
+Msquid:S1481!"/Remove this unused "rowValues2" local variable.(×·Æá8ëêİºÈ-
+asquid:S2583b"CChange this condition so that it does not always evaluate to "true"(±”Ìï8ÁÒğ¸È-
+5squid:S2095C"Close this "ResultSet".(ê¢ğ”8—ô©ËÈ-
+`squid:S1854""=Remove this useless assignment to local variable "total_sum".(Òù¦¦üÿÿÿÿ8±¶×¹È-
+zsquid:S00117""VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òù¦¦üÿÿÿÿ8ëêİºÈ-
+Fsquid:S1148s"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ8ëêİºÈ-
+Ysquid:S1854"=Remove this useless assignment to local variable "resultSet".(›÷Œœúÿÿÿÿ
+ksquid:UselessImportCheck";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ8İÆÊÈ-
+Asquid:S00108l")Either remove or fill this block of code.(”ı¾
+.squid:S2095<"Close this "Statement".(Êë‹
+Tsquid:S1444"6Make this "public static VERIFICATION_FEE" field final(áŸ³®8±¶×¹È-
+Nsquid:S1481#"+Remove this unused "stotal" local variable.(Î°ÙÅùÿÿÿÿ8ëêİºÈ-
+›squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(ÛŒĞÃøÿÿÿÿ
+Osquid:S1854"8Remove this useless assignment to local variable "stmt".(–ÔÀ¡
+ysquid:S3008"[Rename this field "VERIFICATION_FEE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŸ³®8±¶×¹È-
+nsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.( ºòüÿÿÿÿ8ÅË×÷‚.
+Xsquid:S1141j"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ëêİºÈ-
+<squid:S1166^"%Either log or rethrow this exception.(”ı¾
+[squid:S1197""8Move the array designator from the variable to the type.(Òù¦¦üÿÿÿÿ8ëêİºÈ-
+Fsquid:S11488"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8ëêİºÈ-
+isquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(ü¾Ê´8˜©ŠÌÈ-
+V
+squid:S106r";Replace this usage of System.out or System.err by a logger.(à×³µşÿÿÿÿ
+<squid:S1166e"%Either log or rethrow this exception.(”ı¾
+Q
+squid:S106M";Replace this usage of System.out or System.err by a logger.(¿Ÿ¹Û
+[squid:S1197#"8Move the array designator from the variable to the type.(Î°ÙÅùÿÿÿÿ8ëêİºÈ-
+Nsquid:S1313."2Make this IP "192.168.2.241" address configurable.(Ôàšûÿÿÿÿ
+asquid:S2583["CChange this condition so that it does not always evaluate to "true"(ŒÖÄî8ÁÒğ¸È-
+hsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(Ä˜\8’Ÿ¥.
+Q
+squid:S1067";Replace this usage of System.out or System.err by a logger.(£„ä«
+‘"squid:ClassVariableVisibilityCheck"\Make VERIFICATION_FEE a static final constant or non-public and provide accessors if needed.(áŸ³®8±¶×¹È-
+\squid:S1854!">Remove this useless assignment to local variable "rowValues2".(×·Æá8ëêİºÈ-
+^squid:UselessImportCheck"3Remove this unused import 'org.openqa.selenium.By'.(ÿŠŞ›8İÆÊÈ-
+Xsquid:S1141c"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ëêİºÈ-
+nsquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(øÃÊ¢ùÿÿÿÿ8ëêİºÈ-
+`squid:S1854 "=Remove this useless assignment to local variable "rowValues".(ŞÎ¤ıÿÿÿÿ8ëêİºÈ-
+Qsquid:S1481 ".Remove this unused "rowValues" local variable.(ŞÎ¤ıÿÿÿÿ8ëêİºÈ-

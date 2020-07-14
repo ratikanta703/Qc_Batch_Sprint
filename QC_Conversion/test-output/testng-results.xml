@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="170828" started-at="2020-07-03T13:01:40Z" finished-at="2020-07-03T13:04:31Z">
+    <groups>
+      <group name="Ratikanta_Conversion_1">
+        <method signature="QCStore.QC_ILP_Loan_2PDL_Loan_Trying_To_Apply_Conversion_BySelecting_ILPLoan_Txn_Testdata()[pri:2, instance:tests.QCStore@6fc6f14e]" name="QC_ILP_Loan_2PDL_Loan_Trying_To_Apply_Conversion_BySelecting_ILPLoan_Txn_Testdata" class="tests.QCStore"/>
+      </group> <!-- Ratikanta_Conversion_1 -->
+    </groups>
+    <test name="Test" duration-ms="170828" started-at="2020-07-03T13:01:40Z" finished-at="2020-07-03T13:04:31Z">
+      <class name="tests.QCStore">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.QCStore@6fc6f14e]" name="setup" is-config="true" duration-ms="86" started-at="2020-07-03T13:01:41Z" finished-at="2020-07-03T13:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="killProcess()[pri:0, instance:tests.QCStore@6fc6f14e]" name="killProcess" is-config="true" duration-ms="5010" started-at="2020-07-03T13:01:41Z" finished-at="2020-07-03T13:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcess -->
+        <test-method status="PASS" signature="QC_ILP_Loan_2PDL_Loan_Trying_To_Apply_Conversion_BySelecting_ILPLoan_Txn_Testdata()[pri:2, instance:tests.QCStore@6fc6f14e]" name="QC_ILP_Loan_2PDL_Loan_Trying_To_Apply_Conversion_BySelecting_ILPLoan_Txn_Testdata" duration-ms="164968" started-at="2020-07-03T13:01:46Z" finished-at="2020-07-03T13:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QC_ILP_Loan_2PDL_Loan_Trying_To_Apply_Conversion_BySelecting_ILPLoan_Txn_Testdata -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.QCStore@6fc6f14e]" name="getResult" is-config="true" duration-ms="750" started-at="2020-07-03T13:04:31Z" finished-at="2020-07-03T13:04:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QC_ILP_Loan_2PDL_Loan_Trying_To_Apply_Conversion_BySelecting_ILPLoan_Txn_Testdata status=SUCCESS method=QCStore.QC_ILP_Loan_2PDL_Loan_Trying_To_Apply_Conversion_BySelecting_ILPLoan_Txn_Testdata()[pri:2, instance:tests.QCStore@6fc6f14e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.QCStore -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="528222" started-at="2020-07-14T07:05:50Z" finished-at="2020-07-14T07:14:38Z">
+    <groups>
+      <group name="Ratikanta_Online_MOPDL_1">
+        <method signature="QCStore.QC_Sprint_Online_MOPDL_DC_CashAtStore_Txn_Testdata()[pri:4, instance:tests.QCStore@6fc6f14e]" name="QC_Sprint_Online_MOPDL_DC_CashAtStore_Txn_Testdata" class="tests.QCStore"/>
+      </group> <!-- Ratikanta_Online_MOPDL_1 -->
+    </groups>
+    <test name="Test" duration-ms="528222" started-at="2020-07-14T07:05:50Z" finished-at="2020-07-14T07:14:38Z">
+      <class name="tests.QCStore">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.QCStore@6fc6f14e]" name="setup" is-config="true" duration-ms="9912" started-at="2020-07-14T07:05:50Z" finished-at="2020-07-14T07:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="killProcess()[pri:0, instance:tests.QCStore@6fc6f14e]" name="killProcess" is-config="true" duration-ms="5008" started-at="2020-07-14T07:06:00Z" finished-at="2020-07-14T07:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcess -->
+        <test-method status="PASS" signature="QC_Sprint_Online_MOPDL_DC_CashAtStore_Txn_Testdata()[pri:4, instance:tests.QCStore@6fc6f14e]" name="QC_Sprint_Online_MOPDL_DC_CashAtStore_Txn_Testdata" duration-ms="512570" started-at="2020-07-14T07:06:05Z" finished-at="2020-07-14T07:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QC_Sprint_Online_MOPDL_DC_CashAtStore_Txn_Testdata -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.QCStore@6fc6f14e]" name="endReport" is-config="true" duration-ms="0" started-at="2020-07-14T07:14:38Z" finished-at="2020-07-14T07:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.QCStore@6fc6f14e]" name="getResult" is-config="true" duration-ms="718" started-at="2020-07-14T07:14:38Z" finished-at="2020-07-14T07:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QC_Sprint_Online_MOPDL_DC_CashAtStore_Txn_Testdata status=SUCCESS method=QCStore.QC_Sprint_Online_MOPDL_DC_CashAtStore_Txn_Testdata()[pri:4, instance:tests.QCStore@6fc6f14e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.QCStore -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
